@@ -2,7 +2,7 @@
 
 echo ""
 
-echo -e "\nbuild docker hadoop & spark image\n"
-sudo docker build -t spark-hadoop:latest .
+echo -e "\nbuild docker hadoop image\n"
+sudo docker build -t cluster-hadoop:latest .
 
 echo ""
